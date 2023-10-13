@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simulador Interactivo</title>
+</head>
+<body>
+    <h1>Registro de Notas</h1>
+    
+   <div class="container">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Nombre del alumno">
+    
+        <label for="nota1">Nota 1:</label>
+        <input type="text" id="nota1" placeholder="Nota 1">
+    
+        <label for="nota2">Nota 2:</label>
+        <input type="text" id="nota2" placeholder="Nota 2">
+
+    </div>
+    
+    <div class="container">
+        <button id="calcularBtn">Calcular Nota Final</button>
+    
+        <button id="mostrarBtn">Mostrar Resultados</button>
+        <button id="mostrarAprobadosBtn">Mostrar Aprobados</button>
+        <button id="buscarBtn">Buscar Alumno</button>
+        <button id="obtenerNombresBtn">Obtener Nombres</button>
+    </div>
+
+    <div class="listas"></div>
+        <ul id="resultado"></ul>
+        <ul id="aprobados"></ul>
+        <p id="promedio"></p>
+        <p id="busquedaResultado"></p>
+    </div>
+
+    
+    <h2>Lista de Alumnos</h2>
+    <table id="tablaAlumnos">
+        <thead>
+            <tr>
+                <th class="tabla2">Nombre</th>
+                <th class="tabla2">Nota 1</th>
+                <th class="tabla2">Nota 2</th>
+                <th class="tabla2">Nota Final</th>
+                <th class="tabla2">Acciones</th>
+            </tr>
+        </thead>
+        <tbody class="tabla3">
+            
+        </tbody>
+    </table>
+
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+</html>

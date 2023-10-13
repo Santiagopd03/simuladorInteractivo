@@ -1,0 +1,52 @@
+[
+    {
+        "nombre": "Juan",
+        "nota1": 3,
+        "nota2": 4
+    },
+    {
+        "nombre": "María",
+        "nota1": 2,
+        "nota2": 5
+    },
+    {
+        "nombre": "Pedro",
+        "nota1": 4,
+        "nota2": 4
+    },
+    {
+        "nombre": "Ana",
+        "nota1": 4,
+        "nota2": 3
+    },
+    {
+        "nombre": "Carlos",
+        "nota1": 2,
+        "nota2": 3
+    },
+    {
+        "nombre": "Luis",
+        "nota1": 4,
+        "nota2": 3
+    },
+    {
+        "nombre": "Estefania",
+        "nota1": 5,
+        "nota2": 5
+    },
+    {
+        "nombre": "Laura",
+        "nota1": 3,
+        "nota2": 4
+    },
+    {
+        "nombre": "Sofía",
+        "nota1": 2,
+        "nota2": 3
+    },
+    {
+        "nombre": "Alejandro",
+        "nota1": 2,
+        "nota2": 3
+    }
+]
